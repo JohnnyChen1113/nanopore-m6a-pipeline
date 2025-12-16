@@ -1,0 +1,41 @@
+# Data files (too large for git)
+*.pod5
+*.bam
+*.bam.bai
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+# Results
+results/
+output/
+logs/
+
+# Model files
+*.tensor
+*.toml
+dna_r10*/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# SLURM logs
+slurm-*.out
+slurm-*.err
+*.out
+*.err

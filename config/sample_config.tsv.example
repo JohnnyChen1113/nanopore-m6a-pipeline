@@ -1,0 +1,22 @@
+# Sample configuration file for merging BAM files from multiple sequencing runs
+# Format: sample_name<TAB>bam_path1<TAB>bam_path2<TAB>...
+# Lines starting with # are comments
+#
+# This example shows the barcode-to-sample mapping used in our study:
+# - 3 developmental stages: day9, day21, day35
+# - 3 biological replicates per stage
+# - Data from 2 sequencing runs merged per sample
+#
+# Barcode mapping:
+#   Run 1 (round1): barcode01-09 -> day9/day21/day35 rep1-3
+#   Run 2 (round2): barcode10-18 -> day9/day21/day35 rep1-3
+#
+day9_rep1	run1/demux/barcode01.bam	run2/demux/barcode10.bam
+day9_rep2	run1/demux/barcode02.bam	run2/demux/barcode11.bam
+day9_rep3	run1/demux/barcode03.bam	run2/demux/barcode12.bam
+day21_rep1	run1/demux/barcode04.bam	run2/demux/barcode13.bam
+day21_rep2	run1/demux/barcode05.bam	run2/demux/barcode14.bam
+day21_rep3	run1/demux/barcode06.bam	run2/demux/barcode15.bam
+day35_rep1	run1/demux/barcode07.bam	run2/demux/barcode16.bam
+day35_rep2	run1/demux/barcode08.bam	run2/demux/barcode17.bam
+day35_rep3	run1/demux/barcode09.bam	run2/demux/barcode18.bam
