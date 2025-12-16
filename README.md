@@ -83,7 +83,7 @@ m6A sites (BED format)
 
 ```bash
 # Clone this repository
-git clone https://github.com/YOUR_USERNAME/nanopore-m6a-pipeline.git
+git clone https://github.com/JohnnyChen1113/nanopore-m6a-pipeline.git
 cd nanopore-m6a-pipeline
 
 # Install dependencies via conda (recommended)
